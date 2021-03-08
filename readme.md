@@ -1,11 +1,11 @@
-git pull
+echo "# xigui" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:LinFight/xigui.git
+git push -u origin main
 
-git status
-
-git add .
-
-git commit -m "add new files"
-
-git remote add origin git@github.com:FranFan/php-demo
-
-git push -u origin master
+git remote add origin git@github.com:LinFight/xigui.git
+git branch -M main
+git push -u origin main
